@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>b92da876-abf5-47bd-a775-796fb1e29dc8</Guid>
+    <Name>Mercy Class Mod</Name>
+    <Description>Support-oriented class based on Mercy from Overwatch.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>MercyClassMod</AssemblyName>
+    <RootNamespace>MercyClassMod</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config/" />
+    <Folder Include="Config\" />
+    <Folder Include="Content/" />
+    <Folder Include="Localization/" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Src/" />
+    <Folder Include="Src/XComGame/" />
+    <Folder Include="Src/XComGame/Classes/" />
+    <Folder Include="Src/MercyClassMod/" />
+    <Folder Include="Src/MercyClassMod/Classes/" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\MercyClassMod\" />
+    <Folder Include="Src\MercyClassMod\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_MercyClassMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPromotionUIMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_MercyClassMod.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config/XComEditor.ini" />
+    <Content Include="Config/XComEngine.ini" />
+    <Content Include="Config/XComGame.ini" />
+    <Content Include="Localization/XComGame.int" />
+    <Content Include="Src/MercyClassMod/Classes/X2DownloadableContentInfo_MercyClassMod.uc" />
+    <Content Include="Src\MercyClassMod\Classes\UIStrategyScreenListener_MercyClassMod.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2AbilityCharges_MercyClassMod_Resurrect.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2AbilityCooldown_MercyClassMod_Valkyrie.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Ability_MercyClassMod.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Condition_MercyClassMod_ProtectMe.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Condition_MercyClassMod_Resurrect.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Condition_MercyClassMod_Valkyrie.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_DamageBuff.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_GrantActionPoints.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_HealingStream.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_Incision.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_OdinBlessing.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_Persistent.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_PersistentStatChange.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_ProtectMe.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_ProtectMeHolotarget.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_Regeneration.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_Resurrect.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_ResurrectPersistent.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_Valhalla.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2Effect_MercyClassMod_WithYou.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MercyClassMod\Classes\X2StrategyElement_MercyClassMod_GTS.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)/XCOM2.targets" />
+</Project>
